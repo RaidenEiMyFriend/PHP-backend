@@ -128,7 +128,8 @@ class User
     static function changePassword($email, $oldpassword, $newpassword)
     {
         if (User::validation($email, $oldpassword)) {
-            $password = password_hash($newpassword, PASSWORD_DEFAULT);
+          //  $password = password_hash($newpassword, PASSWORD_DEFAULT);
+            $password = $newpassword;
             $db = DB::getInstance();
             $req = $db->query(
                 "UPDATE user
@@ -142,7 +143,8 @@ class User
 
     static function changePassword_($email, $newpassword)
     {
-        $password = password_hash($newpassword, PASSWORD_DEFAULT);
+       // $password = password_hash($newpassword, PASSWORD_DEFAULT);
+        $password = $newpassword;
         $db = DB::getInstance();
         $req = $db->query(
             "UPDATE user
