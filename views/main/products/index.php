@@ -64,7 +64,7 @@
                      <?php if ($product->sale > 0) {?>
                         <div class="badge bg-warning text-dark position-absolute" style="top: 0.5rem; right: 0.5rem">SALE  <?php echo  $product->sale; ?> %</div>
                      <?php }?> 
-                     <img class="card-img-top" src="/BigFarm/<?php echo $product->img; ?>" style="height: 300px;" alt="..." />
+                     <img class="card-img-top" src="/Web/<?php echo $product->img; ?>" style="height: 300px;" alt="..." />
                      <!-- Product details-->
                      <div class="card-body p-4">
                         <div class="text-center">
