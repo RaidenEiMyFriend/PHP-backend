@@ -29,7 +29,7 @@ require_once('views/admin/content_layouts.php'); ?>
 		<div class="container-fluid row">
 			<div class="my-3">
 				<p class="row">
-				<h1 class="text-center">Administrator BigFarm</h1>
+				<h1 class="text-center">Administrator Web</h1>
 				</p>
 			</div>
 		</div>
