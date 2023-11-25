@@ -124,7 +124,7 @@
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
       
         <nav class="navbar navbar-expand-lg navbar-light bg-white bd-subnavbar py-2">
-            <h1 class="logo "><a href="index.php?page=main&controller=layouts&action=index"><img src="assets/images/team_logo.png" alt="">BIG<span>FARM</span></a></h1>
+            <h1 class="logo "><a href="index.php?page=main&controller=layouts&action=index"><img src="assets/images/team_logo.png" alt="">BI<span>YA</span></a></h1>
             <button class="navbar-toggler ms-5" type="button"  aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
