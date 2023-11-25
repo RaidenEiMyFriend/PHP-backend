@@ -1,6 +1,6 @@
 <?php
 require_once('connection.php');
-
+// go to UI
 if (isset($_GET['page'])) {
 	$page = $_GET['page'];
 
