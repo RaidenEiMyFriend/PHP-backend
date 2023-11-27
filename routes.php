@@ -2,7 +2,7 @@
 $pages = array(
   'error' => ['errors'],
   'main' => ['layouts', 'about', 'services', 'blog', 'archive', 'contact', 'login', 'register', 'detail', 'sale', 'detail_blog'],
-  'admin' => ['layouts', 'members', 'products', 'news', 'comments']
+  'admin' => ['layouts', 'members', 'products','womenproducts','menproducts' ,'news', 'comments']
 );
 $controllers = array(
   //Admin controller
@@ -10,6 +10,8 @@ $controllers = array(
   'layouts' => ['index'], // Bổ sung thêm các hàm trong controllers
   'members' => ['index'],
   'products' => ['index','add','edit','delete'],
+  'womenproducts' => ['index','add','edit','delete'],
+  'menproducts' => ['index','add','edit','delete'],
   'news' => ['index','add','edit','delete','hide'],
   'comments' => ['index','hide','add','edit','delete'],
   'admin' => ['index', 'add', 'edit', 'delete'],

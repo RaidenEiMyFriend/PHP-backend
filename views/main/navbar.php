@@ -14,12 +14,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BIG FARM - Trang trại quần áo</title>
+  <title>Ivy-Project</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Logo -->
-  <link href="assets/images/team_logo.png" rel="icon">
+  <link href="assets/images/logoIVY.png" rel="icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   
@@ -124,21 +124,54 @@
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
       
         <nav class="navbar navbar-expand-lg navbar-light bg-white bd-subnavbar py-2">
-            <h1 class="logo "><a href="index.php?page=main&controller=layouts&action=index"><img src="assets/images/team_logo.png" alt="">BIG<span>FARM</span></a></h1>
+            <h1 class="logo "><a href="index.php?page=main&controller=layouts&action=index"><img style="width: 100px; height: auto;" src="assets/images/logoIVY.png" alt=""></a></h1>
             <button class="navbar-toggler ms-5" type="button"  aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse hide" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="index.php?page=main&controller=layouts&action=index" class="nav-link">Introduce</a></li>
-                    <li class="nav-item"><a href="index.php?page=main&controller=about&action=index">About</a></li>
-                    <li class="nav-item"><a href="index.php?page=main&controller=blog&action=index">News</a></li>
-                    <li class="nav-item"><a href="index.php?page=main&controller=sale&action=index">Sale</a></li>
-                    <li class="nav-item"><a href="index.php?page=main&controller=products&action=index">Product</a></li>
-                    <li class="nav-item"><a href="index.php?page=main&controller=services&action=index">Service</a></li>
-                    <li class="nav-item"><a href="index.php?page=main&controller=contact&action=index">Contact</a></li>
+            <div class="collapse navbar-collapse hide" id="navbarSupportedContent" >
+               
+                  <li  class="menu"><a href="index.php?page=main&controller=womenproducts&action=index" class="nav-link">NỮ</a>
+                <!--      <ul class="sub-menu">
+                        <li><a href="">Hàng mới về</a></li>
+                        <li><a href="">Collectiion</a></li>
+                        <li><a href="">Áo</a>
+                            <ul>
+                                <li>
+                                    <a href="">Áo sơ mi</a>
+                                </li>
+                                <li><a href="">
+                                                Áo thun
+                                            </a></li>
+                                <li><a href="">Áo Vest</a></li>
+                                <li>
+                                    <a href="">Áo khoác</a></li>
+                                <li><a href="">Áo len</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Quần</a>
+                            <ul>
+                                <li><a href="">Quần jean</a></li>
+                                <li><a href="">Quần lửng</a></li>
+                                <li><a href="">Quần dài</a></li>
 
+
+                            </ul>
+
+                         </li>
+                      </ul>  -->
+                  
+                   </li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=menproducts&action=index">NAM</a></li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=products&action=index">TRẺ EM</a></li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=sale&action=index">FLASH SALE</a></li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=products&action=index">HOT ITEM</a></li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=products&action=index">BỘ SƯU TẬP</a></li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=blog&action=index">TIN TỨC</a></li>
+                    <li class="nav-item"><a href="index.php?page=main&controller=contact&action=index">THÔNG TIN</a> </li> &nbsp;&nbsp;&nbsp;
+                    <li class="input-group btn-6"><input placeholder="Tìm kiếm" type="text"><i class="fas fa-search"></i></li>
+          
+     
                     <?php
                         if (!isset($_SESSION["guest"])){
                     ?>
@@ -156,7 +189,7 @@
                     ?>
                 </ul>
                     <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
-                </ul>
+               
             </div>
             
         </nav>
