@@ -20,7 +20,7 @@
             <form method="POST">
             <div class="register-box" id="regUser">
                 <div class="top-header">
-                    <img src="assets/images/team_logo.png" alt="" width="72" height="72">
+                    
                     <h3>Sign In</h3>
                     <small>Welcome Back</small>
                 </div>

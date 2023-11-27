@@ -12,7 +12,6 @@
 <body class="text-center">
 	<div class="form-signin w-100 m-auto">
 		<form action="index.php?page=admin&controller=login&action=check" method="POST">
-			<img class="mb-4 border rounded-circle p-1" src="assets\images\team_logo.png" alt="" width="72" height="72">
 			<h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 			<?php
 			if (isset($err)) {

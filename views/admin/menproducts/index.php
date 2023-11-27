@@ -119,6 +119,7 @@ require_once('views/admin/content_layouts.php'); ?>
                                                   </svg></button>
                                                   </td>
                                                 </tr>";
+                                                $index++;
                                 }
                                 ?>
                             </tbody>

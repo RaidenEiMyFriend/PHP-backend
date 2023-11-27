@@ -13,7 +13,6 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Ivy-Project</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -124,6 +123,7 @@
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
       
         <nav class="navbar navbar-expand-lg navbar-light bg-white bd-subnavbar py-2">
+
             <h1 class="logo "><a href="index.php?page=main&controller=layouts&action=index"><img style="width: 100px; height: auto;" src="assets/images/logoIVY.png" alt=""></a></h1>
             <button class="navbar-toggler ms-5" type="button"  aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
